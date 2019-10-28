@@ -2,14 +2,16 @@ body{
     background-color: blueviolet;
     margin-top: 12rem;
 }
+
 p{
     height: 30px;
     margin-top: 0;
     text-align: center;
     color: #333;
     font-size: 24px;
-    animation: lun 4s linear infinite;
+    animation: lun 5s linear infinite;
 }
+
 @keyframes lun {
     0%{margin-top:0;}
     10%{margin-top:-30px;}
